@@ -1,0 +1,394 @@
+[
+    {
+        "table_name": "THONG_TIN_CA_NHAN",
+        "rowsNumber": 4,
+        "sort": 1,
+        "data": [
+            {
+                "key": "6f003d15-82d6-4c03-9a6a-73350453d408",
+                "id": "1419cdf2-0711-4bc3-9345-2e0119938289",
+                "SO_DINH_DANH": "citizen[0].sodinhdanh",
+                "HO_TEN": "citizen[0].hovaten",
+                "NGAY_THANH_NAM_SINH": "citizen[0].ngaythangnamsinh",
+                "GIOI_TINH": "citizen[0].gioitinh",
+                "DAN_TOC": "citizen[0].dantoc",
+                "QUOC_TICH": "citizen[0].quoctich",
+                "QUE_QUAN_XA": "citizen[0].quequanXa",
+                "QUE_QUAN_HUYEN": "citizen[0].quequanHuyen",
+                "QUE_QUAN_TINH": "citizen[0].quequanTinh",
+                "QUE_QUAN": "citizen[0].quequanChitiet",
+                "VAI_TRO": 1
+            },
+            {
+                "key": "27cf206c-c81f-4c24-aecc-bb975fd15d89",
+                "id": "7fed4560-4f4e-49f9-b2db-e3355b21d09e",
+                "SO_DINH_DANH": "citizen[1].sodinhdanh",
+                "HO_TEN": "citizen[1].hovaten",
+                "NGAY_THANH_NAM_SINH": "citizen[1].ngaythangnamsinh",
+                "GIOI_TINH": "citizen[1].gioitinh",
+                "DAN_TOC": "citizen[1].dantoc",
+                "QUOC_TICH": "citizen[1].quoctich",
+                "QUE_QUAN_XA": "citizen[1].quequanXa",
+                "QUE_QUAN_HUYEN": "citizen[1].quequanHuyen",
+                "QUE_QUAN_TINH": "citizen[1].quequanTinh",
+                "QUE_QUAN": "citizen[1].quequanChitiet",
+                "VAI_TRO": 1
+            },
+            {
+                "key": "c2b69805-3367-489e-8141-4aed52585363",
+                "id": "9a7ed019-c718-4ded-90eb-ddccfca1eaa9",
+                "SO_DINH_DANH": "citizen[2].sodinhdanh",
+                "HO_TEN": "citizen[2].hovaten",
+                "NGAY_THANH_NAM_SINH": "citizen[2].ngaythangnamsinh",
+                "GIOI_TINH": "citizen[2].gioitinh",
+                "DAN_TOC": "citizen[2].dantoc",
+                "QUOC_TICH": "citizen[2].quoctich",
+                "QUE_QUAN_XA": "citizen[2].quequanXa",
+                "QUE_QUAN_HUYEN": "citizen[2].quequanHuyen",
+                "QUE_QUAN_TINH": "citizen[2].quequanTinh",
+                "QUE_QUAN": "citizen[2].quequanChitiet",
+                "VAI_TRO": 3
+            },
+            {
+                "key": "43998e45-439f-4ca0-88a5-306d5ba7d9dd",
+                "id": "f81bc18a-fb95-4ff3-8d41-876aec40cf75",
+                "SO_DINH_DANH": "citizen[3].sodinhdanh",
+                "HO_TEN": "citizen[3].hovaten",
+                "NGAY_THANH_NAM_SINH": "citizen[3].ngaythangnamsinh",
+                "GIOI_TINH": "citizen[3].gioitinh",
+                "DAN_TOC": "citizen[3].dantoc",
+                "QUOC_TICH": "citizen[3].quoctich",
+                "QUE_QUAN_XA": "citizen[3].quequanXa",
+                "QUE_QUAN_HUYEN": "citizen[3].quequanHuyen",
+                "QUE_QUAN_TINH": "citizen[3].quequanTinh",
+                "QUE_QUAN": "citizen[3].quequanChitiet",
+                "VAI_TRO": 4
+            }
+        ],
+        "columns": [
+            {
+                "key": "SO_DINH_DANH",
+                "title": "Mã định danh cá nhân",
+                "type": 1,
+                "attibute": {},
+                "typeJava": "String",
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "SO_CMND",
+                "title": "Số chứng minh nhân dân",
+                "type": 1,
+                "typeJava": "String",
+                "attibute": {},
+                "value": "",
+                "options": null
+            },
+            {
+                "key": "HO_CHIEU",
+                "title": "Hộ chiếu",
+                "type": 1,
+                "typeJava": "String",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "HO_TEN",
+                "title": "Họ và Tên",
+                "type": 1,
+                "typeJava": "String",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "TEN_KHAC",
+                "title": "Tên gọi khác",
+                "type": 1,
+                "typeJava": "String",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "BIET_DANH",
+                "title": "Biệt danh",
+                "type": 1,
+                "typeJava": "String",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "GIOI_TINH",
+                "title": "Giới tính",
+                "type": 1,
+                "typeJava": "Integer",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "NGAY_THANH_NAM_SINH",
+                "title": "Ngày tháng năm sinh",
+                "type": 1,
+                "typeJava": "String",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "NOI_SINH",
+                "title": "Nơi sinh",
+                "type": 1,
+                "typeJava": "String",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "DAN_TOC",
+                "title": "Dân tộc",
+                "type": 1,
+                "typeJava": "Long",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "QUOC_TICH",
+                "title": "Quốc tịch",
+                "type": 1,
+                "typeJava": "Long",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "QUE_QUAN_XA",
+                "title": "Quê quán cấp xã ",
+                "type": 1,
+                "typeJava": "Long",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "QUE_QUAN_HUYEN",
+                "title": "Quê quán cấp huyện",
+                "type": 1,
+                "typeJava": "Long",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "QUE_QUAN_TINH",
+                "title": "Quê quán cấp tỉnh",
+                "type": 1,
+                "typeJava": "Long",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "QUE_QUAN",
+                "title": "Quê quán chi tiết",
+                "type": 1,
+                "typeJava": "String",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "VAI_TRO",
+                "title": "Vai trò",
+                "type": 3,
+                "typeJava": "Integer",
+                "attibute": {},
+                "value": null,
+                "options": [
+                    {
+                        "key": 1,
+                        "value": "Bố"
+                    },
+                    {
+                        "key": 2,
+                        "value": "Mẹ"
+                    },
+                    {
+                        "key": 3,
+                        "value": "Người khai sinh"
+                    },
+                    {
+                        "key": 4,
+                        "value": "Người đăng ký khai sinh"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "table_name": "GIAY_DANG_KY_KHAI_SINH",
+        "rowsNumber": 1,
+        "sort": 2,
+        "data": [
+            {
+                "key": "d4c1ebae-dd80-43a8-90cb-84763b37fd65",
+                "id": "477fefda-be63-4017-b158-d949ce8772ff",
+                "ID_CA_NHAN_BO": "6f003d15-82d6-4c03-9a6a-73350453d408",
+                "ID_CA_NHAN_ME": "27cf206c-c81f-4c24-aecc-bb975fd15d89",
+                "ID_CA_NHAN_NGUOIKS": "c2b69805-3367-489e-8141-4aed52585363",
+                "ID_CA_NHAN_NGUOIDKKS": "43998e45-439f-4ca0-88a5-306d5ba7d9dd",
+                "QUAN_HE_NGUOIDKKS": 4,
+                "NOI_CAP_XA": "info.noiCapXa",
+                "NOI_CAP_HUYEN": "info.noiCapHuyen",
+                "NOI_CAP_TINH": "info.noiCapTinh",
+                "NOI_CAP_CHITIET": "info.noiCapChiTiet",
+                "NOI_CAP": "info.noiCap",
+                "NGAY_CAP": "info.ngayCap",
+                "TEN_CAN_BO": "info.tenCanBo",
+                "SO": "info.so",
+                "QUYEN_SO": "info.quyenSo"
+            }
+        ],
+        "columns": [
+            {
+                "key": "ID_CA_NHAN_BO",
+                "title": "Mã cá nhân của bố",
+                "type": 2,
+                "attibute": {},
+                "typeJava": "String",
+                "value": null,
+                "table_relationship": "THONG_TIN_CA_NHAN",
+                "options": null
+            },
+            {
+                "key": "ID_CA_NHAN_ME",
+                "title": "Mã cá nhân của mẹ",
+                "type": 2,
+                "attibute": {},
+                "typeJava": "String",
+                "value": "",
+                "table_relationship": "THONG_TIN_CA_NHAN",
+                "options": [
+                    "options1",
+                    "options2",
+                    "options3"
+                ]
+            },
+            {
+                "key": "ID_CA_NHAN_NGUOIKS",
+                "title": "Mã cá nhân của người khai sinh",
+                "type": 2,
+                "attibute": {},
+                "typeJava": "String",
+                "value": null,
+                "table_relationship": "THONG_TIN_CA_NHAN",
+                "options": null
+            },
+            {
+                "key": "ID_CA_NHAN_NGUOIDKKS",
+                "title": "Mã cá nhân của người đi đăng ký khai sinh",
+                "type": 2,
+                "attibute": {},
+                "typeJava": "String",
+                "value": null,
+                "table_relationship": "THONG_TIN_CA_NHAN",
+                "options": null
+            },
+            {
+                "key": "QUAN_HE_NGUOIDKKS",
+                "title": "Quan hệ với người được khai sinh",
+                "type": 3,
+                "attibute": {},
+                "typeJava": "Integer",
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "NOI_CAP_XA",
+                "title": "Nơi cấp giấy khai sinh cấp xã",
+                "type": 1,
+                "typeJava": "Long",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "NOI_CAP_HUYEN",
+                "title": "Nơi cấp giấy khai sinh cấp huyện",
+                "type": 1,
+                "typeJava": "Long",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "NOI_CAP_TINH",
+                "title": "Nơi cấp giấy khai sinh cấp tỉnh",
+                "type": 1,
+                "typeJava": "Long",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "NOI_CAP_CHITIET",
+                "title": "Nơi cấp giấy khai sinh chi tiết",
+                "type": 1,
+                "typeJava": "String",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "NOI_CAP",
+                "title": "Nơi cấp giấy khai sinh",
+                "type": 1,
+                "typeJava": "String",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "NGAY_CAP",
+                "title": "Ngày cấp giấy khai sinh",
+                "type": 1,
+                "attibute": {},
+                "format": "dd/MM/yyyy",
+                "typeJava": "date",
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "TEN_CAN_BO",
+                "title": "Tên cán bộ cấp giấy khai sinh ",
+                "type": 1,
+                "typeJava": "String",
+                "attibute": {},
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "SO",
+                "title": "Số  thứ tự giấy khai sinh ",
+                "type": 1,
+                "attibute": {},
+                "typeJava": "String",
+                "value": null,
+                "options": null
+            },
+            {
+                "key": "QUYEN_SO",
+                "title": "Quyển số",
+                "type": 1,
+                "typeJava": "String",
+                "attibute": {},
+                "value": null,
+                "options": null
+            }
+        ]
+    }
+]
